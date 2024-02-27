@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+/* Section 1. Hero */
+
+.hero {
+    background-color: #576F35;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.hero-text {
+    max-width: 335px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.hero-title {
+    color: #FBFBFB;
+    font-family: "Inter Tight";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.hero-descr {
+    color: #FBFBFB;
+    font-family: "Inter Tight";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.28;
+}
+
+.hero-img {
+    background-color: #576F35;
+    max-height: 538px;
+    max-width: 767px;
+    background-image: url('../images/background-hero.jpg');
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
