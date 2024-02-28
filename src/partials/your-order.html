@@ -16,17 +16,45 @@
         <p class="order-form-text"></p>
         <form class="order-form">
           <input type="text" class="order-input" placeholder="Full Name" />
-          <input type="text" class="order-input" placeholder="Email" />
+          <input
+            type="email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            placeholder="Email"
+            required
+          />
           <textarea class="order-input" placeholder="Comment"></textarea>
           <button type="submit" class="order-form-btn">Send</button>
         </form>
       </div>
       <div class="order-soc-container">
         <picture>
-          <source />
-          <source />
-          <source />
-          <img src="" alt="" />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ../img/your-order/order-1x.jpg 1x,
+              ../img/your-order/order-2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ../img/your-order/order-tab-1x.jpg 1x,
+              ../img/your-order/order-tab-2x.jpg 2x
+            "
+          />
+          <source
+            media="(max-width: 374px)"
+            srcset="
+              ../img/your-order/order-mob-1x.jpg 1x,
+              ../img/your-order/order-mob-2x.jpg 2x
+            "
+          />
+          <img
+            src="../img/your-order/order-1x.jpg"
+            alt="example of using products"
+            width="427"
+            height="273"
+          />
         </picture>
         <p class="order-soc-title">Follow us on our social networks:</p>
         <ul class="order-soc-list">
