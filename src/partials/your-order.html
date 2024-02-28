@@ -1,0 +1,76 @@
+<!-- ++++ your-order-section ++++ -->
+
+<section class="your-order">
+  <div class="container order-container">
+    <h2 class="order-title">
+      Fresh <span class="order-title-span">Harvest</span> Box has got you
+      covered
+    </h2>
+    <p class="order-text">
+      Our boxes are packed with delicious, nutritious vegetables, perfect for
+      anyone looking to eat healthier or support local farmers. Order your box
+      today and start enjoying the best that nature has to offer!
+    </p>
+    <div class="form-soc-containers">
+      <div class="order-form-container">
+        <p class="order-form-text"></p>
+        <form class="order-form">
+          <input type="text" class="order-input" placeholder="Full Name" />
+          <input
+            type="email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            placeholder="Email"
+            required
+          />
+          <textarea class="order-input" placeholder="Comment"></textarea>
+          <button type="submit" class="order-form-btn">Send</button>
+        </form>
+      </div>
+      <div class="order-soc-container">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ../img/your-order/order-1x.jpg 1x,
+              ../img/your-order/order-2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ../img/your-order/order-tab-1x.jpg 1x,
+              ../img/your-order/order-tab-2x.jpg 2x
+            "
+          />
+          <source
+            media="(max-width: 374px)"
+            srcset="
+              ../img/your-order/order-mob-1x.jpg 1x,
+              ../img/your-order/order-mob-2x.jpg 2x
+            "
+          />
+          <img
+            src="../img/your-order/order-1x.jpg"
+            alt="example of using products"
+            width="427"
+            height="273"
+          />
+        </picture>
+        <p class="order-soc-title">Follow us on our social networks:</p>
+        <ul class="order-soc-list">
+          <li class="order-soc-item">
+            <a href="" class="order-soc-link">instagram</a>
+          </li>
+          <li class="order-soc-item">
+            <a href="" class="order-soc-link">facebook</a>
+          </li>
+          <li class="order-soc-item">
+            <a href="" class="order-soc-link">youtube</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ++++++++++++++++++++++ -->
