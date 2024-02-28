@@ -133,16 +133,12 @@
     text-transform: uppercase;
     color: #7a3145;
     margin: 0 auto;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-        color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu-shop-btn:hover,
 .header-menu-shop-btn:focus {
-    background-color: #7a3145;
-    color: #FBFBFB;
-    border: 1px solid rgba(251, 251, 251, 0.2);
+    color: rgba(122, 49, 69, 0.7);
 }
 
 .header-desktop {
@@ -260,13 +256,12 @@
         text-transform: uppercase;
         color: #FBFBFB;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            
     }
             
     .header-desktop-shop-btn:hover,
     .header-desktop-shop-btn:focus {
-        background-color: #FBFBFB;
-        color: #7a3145;
+        background-color: #622133;
     }
 }
 
