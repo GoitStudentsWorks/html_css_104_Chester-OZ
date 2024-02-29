@@ -87,9 +87,6 @@
   .green-title .section-title span {
     font-size: 64px;
   }
-  .reviews-boxes .review-box {
-    margin-right: -10px;
-  }
   .reviews-boxes {
     margin-right: 35px;
   }
@@ -121,7 +118,6 @@
   .reviews-boxes {
     margin-right: 25px;
   }
-
   .reviews-boxes .review-box .review-body {
     font-size: 16px;
     line-height: 140%; /* 22.4px */
