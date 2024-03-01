@@ -36,7 +36,7 @@
 .header-menu-open-btn:focus .header-icon-open-menu {
     stroke: #7a3145;
 }
-    
+
 .backdrop {
     background-color: transparent;
     width: 100vw;
@@ -84,7 +84,7 @@
     transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-menu-close-btn:hover, 
+.header-menu-close-btn:hover,
 .header-menu-close-btn:focus .header-icon-close-menu {
     stroke: #141414;
 }
@@ -109,7 +109,7 @@
     border-radius: 12px;
     padding: 12px 16px;
     min-width: 115px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -146,7 +146,7 @@
 }
 
 @media screen and (min-width:768px) {
-    
+
     .header {
         padding: 32px 0px;
     }
@@ -164,7 +164,7 @@
         width: 40px;
         height: 40px;
     }
-    
+
     .backdrop {
         background-color: rgba(20, 20, 20, 0.4);
     }
@@ -185,7 +185,7 @@
 
 @media screen and (min-width:1280px) {
 
-    .header{
+    .header {
         background-color: transparent;
         position: absolute;
         top: 0;
@@ -220,7 +220,7 @@
         display: flex;
         gap: 8px;
     }
-    
+
     .header-desktop-nav-link {
         display: inline-flex;
         justify-content: center;
@@ -241,7 +241,7 @@
         background-color: #FBFBFB;
         color: #7a3145;
     }
-    
+
     .header-desktop-shop-btn {
         border: none;
         border-radius: 30px;
@@ -256,12 +256,11 @@
         text-transform: uppercase;
         color: #FBFBFB;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            
+
     }
-            
+
     .header-desktop-shop-btn:hover,
     .header-desktop-shop-btn:focus {
         background-color: #622133;
     }
 }
-
