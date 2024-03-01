@@ -275,6 +275,7 @@
     .form-soc-container {
         padding: 0;
         flex-direction: row;
+        gap: 24px;
     }
 
     .order-form-container {
