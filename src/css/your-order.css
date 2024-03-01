@@ -1,11 +1,5 @@
 /* ++++ your-order-section ++++ */
 
-.your-order {}
-
-.container {}
-
-.order-container {}
-
 .order-title {
     font-size: 48px;
     font-style: normal;
@@ -178,8 +172,6 @@
     flex-wrap: wrap;
 }
 
-.order-soc-item {}
-
 .order-soc-item:not(:last-child):after {
     content: '/';
     font-size: 24px;
@@ -271,6 +263,28 @@
 
 }
 
-@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 1280px) {
+    .order-title {
+        width: 751px;
+    }
+
+    .order-text {
+        width: 742px;
+    }
+
+    .form-soc-container {
+        padding: 0;
+        flex-direction: row;
+    }
+
+    .order-form-container {
+        padding: 50px;
+    }
+
+    .order-form-text {
+        width: 428px;
+        margin-bottom: 50px;
+    }
+}
 
 /* +++++++++++++++++++++++++ */
