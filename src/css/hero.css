@@ -1,31 +1,25 @@
-body {
-    margin: 0;
-}
-
-h1, h2, h3, p {
-    margin: 0;
-}
-
 /* Section 1. Hero */
 
 .hero {
     background-color: #576F35;
-    padding-top: 100px;
-    padding-bottom: 40px;
+    
+}
+
+.hero-container {
+    padding-top: 28px;
 }
 
 .hero-text {
-    max-width: 335px;
+    max-width: 365px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 40px;
 }
 
 .hero-title {
     color: #FBFBFB;
-    font-family: "Inter Tight";
     font-size: 48px;
-    font-style: normal;
     font-weight: 600;
     line-height: 1;
     letter-spacing: 0.015em;
@@ -33,22 +27,89 @@ h1, h2, h3, p {
     margin-bottom: 20px;
 }
 
-.hero-descr {
-    color: #FBFBFB;
-    font-family: "Inter Tight";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.28;
-}
-
 .hero-img {
     background-color: #576F35;
-    max-height: 538px;
-    max-width: 767px;
-    background-image: url('../images/background-hero.jpg');
-    margin: 0 auto;
+    min-height: 315px;
+    min-width: 320px;
+    background-image: url('../img/hero/background-hero.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+/* Media. Resolution */
+
+@media screen and (min-resolution: 192dpi) {
+    .hero-img {
+        background-image: url('../img/hero/background-hero@2x.jpg');
+    }
+}
+
+/* Media. Tablet */
+
+@media screen and (min-width: 768px) {
+    .hero-container {
+        padding-top: 18px;
+    }
+
+    .hero-text {
+        min-width: 734px;
+        padding-bottom: 50px;
+    }
+
+    .hero-title {
+        margin-bottom: 25px;
+        font-size: 76px;
+    }
+
+    .hero-descr {
+        width: 603px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .hero-img {
+        min-height: 539px;
+    }
+}
+
+/* Media. Desktop */
+
+@media screen and (min-width: 1280px) {
+    /* .hero {
+        width: 1280px;
+        margin: 0 auto;
+    } */
+
+    .hero-container {
+        padding-top: 0;
+        margin: 0 auto;
+        width: 1280px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .hero-text {
+        padding-top: 238px;
+        padding-left: 100px;
+        padding-right: 28px;
+        min-width: 632px;
+        margin: 0;
+        max-width: calc(50% - 28px);
+    }
+
+    .hero-title {
+        margin-bottom: 128px;
+        width: 502px;
+    }
+
+    .hero-descr {
+        width: 472px;
+    }
+
+    .hero-img {
+        min-width: 650px;
+        min-height: 800px;
+    }
 }
