@@ -1,3 +1,7 @@
+.white {
+  background-color: #fbfbfb;
+}
+
 .section-title {
   color: #141414;
   font-size: 48px;
@@ -26,10 +30,6 @@
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
-}
-.section {
-  background-color: #fff;
-  overflow-x: hidden;
 }
 .reviews-boxes {
   display: flex;
