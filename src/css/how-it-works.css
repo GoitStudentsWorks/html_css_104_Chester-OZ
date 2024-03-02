@@ -1,15 +1,11 @@
-.container {
+.section {
     width: 375px;
     margin: 0 auto;
+    padding: 0;
 }
 
-.how-it-works-container {
-    padding: 40px 20px;
-}
-
-.image{
-    width: 375px;
-    padding: 40px 20px;
+.container-hiw{
+    padding: 0;
 }
 
 .visually-hidden {
@@ -25,9 +21,23 @@
     overflow: hidden;
 }
 
-.hiw-img {
-    
+.container-img-hiw{
+    padding: 40px 0;
 }
+
+.image{
+    width: 335px;
+    height: 450px;
+    background-image: url(../img/how-it-works/Woman-mob.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .easy-steps-hiw {
     width: 375px;
@@ -56,44 +66,32 @@
 }
 
 .hiw-list {
-    list-style-type: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0;
     gap: 20px;
+    counter-reset: 0;
 }
+
 
 .hiw-list-item {
     background-color: #fff;
     border-radius: 15px;
-    width: 335px;
-    height: 76px;
-    display: flex;
 }
 
-.div-nmbr {
-    display: flex;
+.hiw-list-item::before{
+    counter-increment: 1;
+}
+
+.hiw-list .hiw-list-item::before {
+    content: number (1);
     width: 52px;
     height: 52px;
-    margin-right: 24px;
-    align-content: center;
-    justify-content: center;
-}
-
-.hiw-nmbr-span {
-    display: flex;
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 100%;
-    letter-spacing: -0.02em;
     background-color: #7A3145;
-    border: 5px solid gba(122, 73, 85, 0.3);
+    border-radius: 50%;
+    border: 5px;
+    flex-shrink: 0;
 }
 
 .hiw-li-text {
