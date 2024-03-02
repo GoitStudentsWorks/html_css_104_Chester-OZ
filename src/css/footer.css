@@ -11,9 +11,9 @@
     flex-direction: column;
 }
 
-.icon-logo,
-.logo-text {
-    fill: var(--light-text-color);
+ .icon-logo,
+ .logo-text {
+    fill: #FBFBFB;
 }
 
 .footer-text {
