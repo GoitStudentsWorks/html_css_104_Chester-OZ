@@ -32,7 +32,7 @@
 .image{
     max-width: 335px;
     height: 450px;
-    background-image: url(../img/how-it-works/Woman-mob.png);
+    background-image: url(../img/how-it-works/Woman-mob1x.png);
     background-position: center;
     background-repeat: no-repeat;
     margin-left: auto;
@@ -41,15 +41,6 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-@media screen and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dpx){
-    .image{
-        background-image: url(../img/how-it-works/Woman-mob2x.png)
-    }
-}
-
 
 .easy-steps-hiw {
     max-width: 375px;
@@ -134,6 +125,14 @@
     color: rgba(20, 20, 20);
 }
 
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dpx) {
+    .image {
+        background-image: url(../img/how-it-works/Woman-mob2x.png)
+    }
+}
+
 /*=====Tablet=====*/
 
 @media screen and (min-width: 768px) {
@@ -153,7 +152,7 @@
     .image {
         max-width: 640px;
         height: 640px;
-        background-image: url(../img/how-it-works/woman-tab.png);
+        background-image: url(../img/how-it-works/woman-tab1x.png);
         }
 
     .easy-steps-hiw {
@@ -183,6 +182,15 @@
     font-size: 16px;
     line-height: 125%;
 }
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dpx) {
+    .image {
+        background-image: url(../img/how-it-works/woman-tab2x.png);
+    }
+}
+
 }
 
 /*=====Desktop=====*/
@@ -204,7 +212,7 @@
 .image {
     width: 430px;
     height: 559px;
-    background-image: url(../img/how-it-works/woman-dsp.png);
+    background-image: url(../img/how-it-works/woman-dsp1x.png);
 }
 
 .easy-steps-hiw {
@@ -230,6 +238,14 @@
     line-height: 117%;
     letter-spacing: -0.02em;
     color: rgba(20, 20, 20, 0.6);
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dpx) {
+    .image {
+        background-image: url(../img/how-it-works/woman-dsp2x.png);
+    }
 }
 
 }
