@@ -195,10 +195,7 @@
 
 
     .header-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 200px;
+        gap: 100px;
     }
 
     .header-icon-open-menu {
@@ -213,7 +210,7 @@
         display: flex;
         gap: 20px;
         align-items: center;
-        flex-grow: 1;
+        justify-content: end;
     }
 
     .header-desktop-nav-list {
@@ -264,4 +261,3 @@
         background-color: #622133;
     }
 }
-
