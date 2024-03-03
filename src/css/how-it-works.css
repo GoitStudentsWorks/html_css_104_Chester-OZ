@@ -1,11 +1,10 @@
 .how-it-works {
-   /*  max-width: 375px;
-    margin: 0 auto;
-    padding: 0; */
 }
 
+.container-how-it-works {
+    padding: 0;
+}
 
-    
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -19,32 +18,31 @@
     overflow: hidden;
 }
 
-.img-hiw{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    
+.hiw-picture {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    margin: 0 auto;
 }
 
-.image{
-    min-width: 320px;
-    min-height: 450px;
-    background-image: url(../img/how-it-works/Woman-mob1x.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-left: auto;
-    margin-right: auto;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.hiw-image {
+    border-radius: 30px;
+    max-width: 100%;
 }
 
-.easy-steps-hiw {
-    max-width: 375px;
+.hiw-easy-steps {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #576F35;
     padding: 80px 20px;
-    background-color: #576f35;
+    margin: 0 auto;
 }
 
 .title-hiw {
+    max-width: 335px;
     font-weight: 600;
     font-size: 28px;
     line-height: 100%;
@@ -58,6 +56,7 @@
 }
 
 .subtitle-hiw {
+    max-width: 335px;
     font-weight: 500;
     font-size: 14px;
     line-height: 129%;
@@ -90,7 +89,7 @@
     gap: 24px;
 }
 
-.hiw-list-item::before{
+.hiw-list-item::before {
     content: counter(number);
     width: 42px;
     height: 42px;
@@ -122,126 +121,77 @@
     color: rgba(20, 20, 20);
 }
 
-@media screen and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dpx) {
-    .image {
-        background-image: url(../img/how-it-works/Woman-mob2x.png)
-    }
-}
-
-/*=====Tablet=====*/
+/*====Tablet====*/
 
 @media screen and (min-width: 768px) {
-    /* .how-it-works {
-        max-width: 768px;
-    } */
-
-    /* .hiw-container {
-    } */
-
-    .img-hiw {
-        padding: 100px 0;
-        }
-
-    .image {
-        /* max-width: 640px; */
-        min-height: 640px;
-        background-image: url(../img/how-it-works/woman-tab1x.png);
-        border-radius: 30px;
-        }
-
-
-    .easy-steps-hiw {
-        max-width: 768px;
+.hiw-easy-steps {
+        max-width: 100%px;
         padding: 100px 159px;
     }
-
-    .title-hiw {
-    font-size: 32px;
-    margin-bottom: 25px;
-    }
-
-    .subtitle-hiw {
-        font-size: 16px;
-        line-height: 125%;
-        margin-bottom: 50px;
-    }
-    
-    .hiw-list-item {
-        padding-top: 12px;
-        padding-bottom: 12px;
-        padding-left: 24px;
-        max-width: 450px;
-}
-
-    .hiw-li-text {
-    font-size: 16px;
-    line-height: 125%;
-}
-
-@media screen and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dpx) {
-    .image {
-        background-image: url(../img/how-it-works/woman-tab2x.png);
-    }
-}
-
-}
-
-/*=====Desktop=====*/
-
-@media screen and (min-width: 1280px) {
-    /* .how-it-works {
-        max-width: 1280px;
-    } */
-    .hiw-container {
-        padding: 0;
-        display: flex;
-        flex-direction: row;
-    }
-    .img-hiw {
-    padding: 100px;
-}
-
-.image {
-    min-width: 430px;
-    min-height: 559px;
-    background-image: url(../img/how-it-works/woman-dsp1x.png);
-}
-
-.easy-steps-hiw {
-    min-width: 650px;
-    padding: 100px 100px 160px 100px;
-}
 .title-hiw {
+    max-width: 450px;
     font-size: 32px;
     margin-bottom: 25px;
 }
 
 .subtitle-hiw {
+    max-width: 450px;
     font-size: 16px;
     line-height: 125%;
     margin-bottom: 50px;
 }
+
 .hiw-list-item {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
     max-width: 450px;
+    }
+    
+    .hiw-li-text {
+    font-size: 16px;
+    line-height: 125%;
+    }
+
 }
 
+/*====Desktop====*/
+
+@media screen and (min-width: 1280px) {
+
+.container-how-it-works {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.hiw-picture{
+    padding: 100px;
+    min-width: 630px;
+}
+    
+.hiw-easy-steps {
+    min-width: 650px;
+    padding: 100px 100px 160px 100px;
+    margin: 0;
+    }
+    
+.title-hiw {
+    font-size: 32px;
+    margin-bottom: 25px;
+    }
+    
+.subtitle-hiw {
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 50px;
+    }
 .hiw-li-text {
     font-size: 16px;
     line-height: 117%;
     letter-spacing: -0.02em;
     color: rgba(20, 20, 20, 0.6);
-}
-
-@media screen and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dpx) {
-    .image {
-        background-image: url(../img/how-it-works/woman-dsp2x.png);
     }
-}
-
 }
