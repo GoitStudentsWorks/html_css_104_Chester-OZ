@@ -1,15 +1,10 @@
-.organic-veg {
+.section {
 }
 .container {
 }
 .organic-veg-container {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 80px;
-  padding-bottom: 80px;
 }
 .organic-veg-title {
-  font-family: var(--font-family);
   font-weight: 600;
   font-size: 48px;
   line-height: 104%;
@@ -21,7 +16,6 @@
 }
 .organic-veg-par {
   margin-bottom: 40px;
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
@@ -44,13 +38,11 @@
 .organic-veg-wrap h3,
 .organic-veg-wrap p {
   margin: 0;
-  padding-top: 32;
   padding-bottom: 32px;
   padding-left: 26px;
   padding-right: 26;
 }
 .organic-veg-wrap h3 {
-  font-family: var(--font-family);
   font-weight: 600;
   font-size: 28px;
   line-height: 100%;
@@ -59,7 +51,6 @@
   padding-top: 32px;
 }
 .organic-veg-wrap p {
-  font-family: var(--font-family);
   font-weight: 600;
   font-size: 14px;
   line-height: 129%;
@@ -69,14 +60,15 @@
 }
 
 .organic-veg-img {
-  background: white;
+  background: #fbfbfb;
   border-radius: 40px;
   display: block;
   margin: 0 auto;
 }
 .organic-veg-wrap {
-  background: white;
+  background: #fbfbfb;
   border-radius: 40px;
+  padding: 32px;
 }
 
 /* Медіа-запит для планшетів */
@@ -88,7 +80,7 @@
     flex-wrap: wrap;
   }
   .organic-veg-item {
-    width: calc((100% - 20) / 2);
+    width: calc((100% - 42px) / 2);
   }
   .organic-veg-container {
     padding-top: 100px;
@@ -107,8 +99,8 @@
 /* Медіа-запит для десктопів */
 @media screen and (min-width: 1280px) {
   .organic-veg-list {
-    row-gap: 21px;
-    column-gap: 28px;
+    row-gap: 28px;
+    column-gap: 21px;
   }
   .organic-veg-container {
     padding-top: 100px;
@@ -116,9 +108,11 @@
     padding-left: 100px;
     padding-right: 100px;
   }
+
   .organic-veg-item {
-    width: calc((100% - 20) / 3);
+    width: calc((100% - 42px) / 3);
   }
+
   .organic-veg-par {
     max-width: 550px;
   }
