@@ -161,7 +161,7 @@
 
 @media screen and (min-width: 1280px) {
 
-.how-it-works {
+.container-how-it-works {
     display: flex;
     flex-direction: row;
     padding: 0;
