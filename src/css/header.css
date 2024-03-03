@@ -25,6 +25,7 @@
 .header-menu-open-btn {
     background-color: transparent;
     border: none;
+    padding: 0;
 }
 
 .header-icon-open-menu {
@@ -77,6 +78,7 @@
     position: absolute;
     top: 20px;
     right: 20px;
+    padding: 0;
 }
 
 .header-icon-close-menu {
@@ -170,11 +172,22 @@
     }
 
     .header-mobile-menu {
+        padding: 360px 32px 50px 32px;
         max-width: 351px;
         position: absolute;
         top: 0;
         left: 100%;
         transform: translateX(-100%) scale(1);
+    }
+
+    .header-menu-close-btn {
+        top: 32px;
+        right: 32px;
+    }
+
+    .header-icon-close-menu {
+        width: 40px;
+        height: 40px;
     }
 
     .header-menu-shop-btn {
