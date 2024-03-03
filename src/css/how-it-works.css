@@ -1,13 +1,7 @@
-.section-how-it-works {
-    max-width: 375px;
+.how-it-works {
+   /*  max-width: 375px;
     margin: 0 auto;
-    padding: 0;
-}
-
-
-.container-hiw{
-    padding: 0;
-    background: linear-gradient(to bottom, #7a3145 0 530px, #576f35 530px 1184px);
+    padding: 0; */
 }
 
 
@@ -25,13 +19,15 @@
     overflow: hidden;
 }
 
-.container-img-hiw{
-    padding: 40px 0;
+.img-hiw{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
 }
 
 .image{
-    max-width: 335px;
-    height: 450px;
+    min-width: 320px;
+    min-height: 450px;
     background-image: url(../img/how-it-works/Woman-mob1x.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -45,6 +41,7 @@
 .easy-steps-hiw {
     max-width: 375px;
     padding: 80px 20px;
+    background-color: #576f35;
 }
 
 .title-hiw {
@@ -136,24 +133,24 @@
 /*=====Tablet=====*/
 
 @media screen and (min-width: 768px) {
-    .section-how-it-works {
+    /* .how-it-works {
         max-width: 768px;
-    }
+    } */
 
-    .container-hiw {
-        background: linear-gradient(to bottom, #7a3145 0 840px,
-        #576f35 840px 1539px);
-    }
+    /* .hiw-container {
+    } */
 
-    .container-img-hiw {
+    .img-hiw {
         padding: 100px 0;
         }
 
     .image {
-        max-width: 640px;
-        height: 640px;
+        /* max-width: 640px; */
+        min-height: 640px;
         background-image: url(../img/how-it-works/woman-tab1x.png);
+        border-radius: 30px;
         }
+
 
     .easy-steps-hiw {
         max-width: 768px;
@@ -196,27 +193,26 @@
 /*=====Desktop=====*/
 
 @media screen and (min-width: 1280px) {
-    .section-how-it-works {
+    /* .how-it-works {
         max-width: 1280px;
-    }
-    .container-hiw {
+    } */
+    .hiw-container {
         padding: 0;
         display: flex;
         flex-direction: row;
-        background: linear-gradient(to right, #7a3145 0 630px, #576f35 630px 1280px);
     }
-    .container-img-hiw {
+    .img-hiw {
     padding: 100px;
 }
 
 .image {
-    width: 430px;
-    height: 559px;
+    min-width: 430px;
+    min-height: 559px;
     background-image: url(../img/how-it-works/woman-dsp1x.png);
 }
 
 .easy-steps-hiw {
-    max-width: 650px;
+    min-width: 650px;
     padding: 100px 100px 160px 100px;
 }
 .title-hiw {
