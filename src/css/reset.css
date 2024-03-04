@@ -1,5 +1,9 @@
 /*=====Reset styles=====*/
 
+:root {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Inter Tight, sans-serif;
   font-size: 14px;
