@@ -1,0 +1,95 @@
+.advertisemen {
+    background-color: #FBFBFB;
+}
+.container-text {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 80px 10px;
+}
+.text {
+    position: relative;
+    font-size: 48px;
+    line-height: 1.06;
+    letter-spacing: -0.015em;
+    font-weight: 700;   
+    text-transform: uppercase;
+    color: #141414;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.green-fon {
+    position: absolute;
+    width: 300px;
+    height: 102px;
+    border-radius: 12px;
+    background-color: #576F35;
+}
+.text-discount {
+    font-weight: 600;
+    color: #FBFBFB;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+@media screen and (min-width:375px) {
+    .container-text {
+        max-width: 375px;
+    }
+    .green-fon {
+        width: 355px;
+         height: 102px;
+        }
+}
+
+@media screen and (min-width:768px) {
+    .container-text {
+        padding: 100px 0;
+        max-width: 736px;
+    }
+    .text {
+        font-size: 64px;
+        line-height: 1.093;
+        padding-top: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .green-fon {
+        width: 736px;
+        height: 86px;
+    }
+    .text-discount {
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .container-text {
+        max-width: 1280px;
+        padding: 100px;
+    }
+    .text {
+        font-size: 76px;
+        line-height: 1.05;
+        padding-top: 0;
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+     .green-fon {
+        width: 808px;
+    }
+     .text-discount {
+         padding-top: 0;
+    }
+}
