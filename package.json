@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-group-7/",
+    "build": "vite build --base=/html_css_104_Chester-OZ/",
     "preview": "vite preview"
   },
   "devDependencies": {
